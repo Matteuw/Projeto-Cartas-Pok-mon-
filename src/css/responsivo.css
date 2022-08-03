@@ -24,20 +24,25 @@
         width: 200px;   
     }
     .cartao{
-        padding: 6px;
+        padding: 8px;
     }
     .cartao .container-pokemon {
         min-height: 150px ;
         min-width: 80px;
         padding-bottom: 0px;
-        margin-bottom: 0;
+        margin-bottom: 0px;
     }
-    .cartao .informacao{
-        padding: 4px 8px;
+    .cartao .container-pokemon.mewtwo{
+        height: 160px;
+    }
+    .cartao .informacao {
+        padding: 6px 10px;
+
     }
     .cartao .informacao .nome {
         max-width: 50%;
         font-size: 14px ;
+       
     }
     .cartao .informacao .vida {
         font-size: 14px;
