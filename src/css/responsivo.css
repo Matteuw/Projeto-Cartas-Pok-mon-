@@ -1,0 +1,66 @@
+@media (max-width: 620px) {   
+    .tronco-slider {
+        padding: 15 0px;
+        gap: 10px;
+       
+    }
+    .cabecalho {
+        font-size: 12px;
+    }
+    .cabecalho .pokebola{
+        width: 30px;
+        height: 30px;
+    }
+    .btn-seta {
+        width: 10px;
+        height: 100px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cartoes{
+        height: 320px;
+        width: 200px;   
+    }
+    .cartao{
+        padding: 6px;
+    }
+    .cartao .container-pokemon {
+        min-height: 150px ;
+        min-width: 80px;
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
+    .cartao .informacao{
+        padding: 4px 8px;
+    }
+    .cartao .informacao .nome {
+        max-width: 50%;
+        font-size: 14px ;
+    }
+    .cartao .informacao .vida {
+        font-size: 14px;
+        padding: 4px;
+    }
+    .cartao .descricao{
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;          
+    }
+    .cartao .descricao .titulo{
+        font-size: 12px;
+        padding-bottom: 4px;
+        border-top-left-radius: 5px;
+    }
+    .cartao .descricao .texto{
+        padding: 2px;
+        margin: 2px;
+        height: 60px;
+        font-size: 10px;
+        
+       
+
+    }
+
+    
+}
